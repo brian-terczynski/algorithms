@@ -2,6 +2,9 @@ package com.brianterczynski.algorithms;
 
 import java.util.Arrays;
 
+/**
+ * Adding a comment.
+ */
 public class Mergesort {
     private static void sort(Comparable[] a, Comparable[] aux, int lo, int hi) {
         if (hi <= lo) return;
